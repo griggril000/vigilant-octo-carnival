@@ -11,12 +11,15 @@ h1 {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    flex-direction: column;
 }
 
 input,
 button {
     margin: 5px;
     border-radius: 5px;
+    width: 200px;
+    height: 40px;
 }
 
 button {
