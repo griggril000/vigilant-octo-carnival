@@ -1,25 +1,10 @@
 <html>
+
 <head>
-    <style>
-        h1 {
-            text-align: center;
-        }
-
-        table {
-            margin: auto;
-            border-collapse: collapse;
-        }
-
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-        }
-
-        input, button {
-            margin: 5px;
-        }
-    </style>
+    <title>Food Expiration Tracker</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
     <h1>Food Expiration Tracker</h1>
     <table id="food-table">
@@ -146,7 +131,7 @@
                 let food = foodCell.textContent;
                 let date = dateCell.textContent;
                 // Create an object with the food and date properties
-                let item = {food: food, date: date};
+                let item = { food: food, date: date };
                 // Push the item object to the items array
                 items.push(item);
             }
@@ -157,7 +142,7 @@
         }
 
         // Add a click event listener to the add button
-        addButton.addEventListener("click", function() {
+        addButton.addEventListener("click", function () {
             // Get the values from the input fields
             let food = foodInput.value;
             let date = dateInput.value;
@@ -214,4 +199,5 @@
         window.onload = loadFoodItems;
     </script>
 </body>
+
 </html>
