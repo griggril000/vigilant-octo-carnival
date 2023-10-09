@@ -2,6 +2,18 @@ h1 {
     text-align: center;
 }
 
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+input,
+button {
+    margin: 5px;
+}
+
 table {
     margin: auto;
     border-collapse: collapse;
@@ -11,9 +23,4 @@ th,
 td {
     border: 1px solid black;
     padding: 10px;
-}
-
-input,
-button {
-    margin: 5px;
 }
